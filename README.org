@@ -1,0 +1,34 @@
+#+TITLE: smartJump layer
+
+# The maximum height of the logo should be 200 pixels.
+[[img/smartJump.png]]
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+ - [[#description][Description]]
+ - [[#install][Install]]
+ - [[#key-bindings][Key bindings]]
+
+* Description
+This layer does wonderful things:
+  超级轻量级的高亮和跳转工具。可是实现不太严谨的代码跳转。和单词高亮，单词替换。注意这里使用的全部都是基于词汇的。
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =smartJump= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+| Key Binding | Description                |
+|-------------+----------------------------|
+| ~SPC , ,~   | 查找文件中的高亮代码       |
+| ~SPC , .~   | 取消文件中全部高亮代码     |
+| ~SPC , n~   | 跳转当前的单词的下一个位置 |
+| ~SPC , p~   | 跳转当前单词的前一个位置   |
+| ~SPC , r~   | 字符替换                   |
+# Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
+# Examples:
+# [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
+# [[https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bfun/emoji/README.org][Link to Emoji layer README.org]]
+# If space-doc-mode is enabled, Spacemacs will open a local copy of the linked file.
