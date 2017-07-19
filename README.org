@@ -5,21 +5,21 @@
 
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
- - [[#description][Description]]
- - [[#install][Install]]
- - [[#key-bindings][Key bindings]]
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
 
 * Description
-This layer does wonderful things:
+  This layer does wonderful things:
   超级轻量级的高亮和跳转工具。可是实现不太严谨的代码跳转。和单词高亮，单词替换。注意这里使用的全部都是基于词汇的。
 
 * Install
-To use this configuration layer, add it to your =~/.spacemacs=. You will need to
-add =smartJump= to the existing =dotspacemacs-configuration-layers= list in this
-file.
-
+  To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+  add =smartJump= to the existing =dotspacemacs-configuration-layers= list in this
+  file.
+  
 * Key bindings
-
+  
 | Key Binding | Description                |
 |-------------+----------------------------|
 | ~SPC , ,~   | 查找文件中的高亮代码       |
